@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EgoPetroleum</title>
+  <!--Icon-->
+  <link rel="shortcut icon" href="assets/img/logo4.png" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="lib/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="lib/bootstrap/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="lib/swiper/node_modules/swiper/swiper-bundle.min.css">
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <!--Animate-->
+    <link rel="stylesheet" href="lib/animate/node_modules/animate.css/animate.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">EgoPetroleum</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container text-center">
+      <h1 class="hero-title  animate__fadeInUp__delay-2s">EgoPetroleum</h1>
+      <p class="hero-subtitle">En el dinámico mundo del petróleo y gas, proporcionamos soluciones innovadoras y estrategias sostenibles que maximizan la eficiencia operativa. Nuestro compromiso se centra en ofrecer servicios de alta calidad que impulsan el crecimiento y aseguran el éxito de nuestros clientes.</p>
+    </div>
+  </section>
+
+  <!-- Serviços Section -->
+  <section id="services" class="services py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Nuestros Servicios</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide basico">
+            <h3>Servicios Básicos</h3>
+            <p>Ayudamos a las empresas de petróleo y gas a desarrollar estrategias para buscar el crecimiento y crear valor en un entorno incierto y volátil.</p>
+          </div>
+          <div class="swiper-slide Intermediario">
+            <h3>Servicios Intermediario</h3>
+            <p>Desarrolla hoy soluciones innovadoras de energía, transporte y materiales para ayudar a satisfacer mejor las necesidades de nuestro futuro.</p>
+          </div>
+          <div class="swiper-slide avanzado">
+            <h3>Servicios Avanzados</h3>
+            <p>Creemos que tenemos la escala, la presencia global y la experiencia para navegar en mercados complejos y gestionar sistemas energéticos cada vez más integrados.</p>
+          </div>
+          <div class="swiper-slide avanzado_">
+            <h3>Servicios Avanzados+</h3>
+            <p>Venta de los crudos y gas , así como de los productos, petroquímicos e industriales producidos en las refinerías, los cuales son comercializados en los mercados nacionales e internacionales más rentables.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 about-img">
+                <img src="assets/img/logo4.png" alt="Logo" class="img-fluid">
+            </div>
+            <div class="col-md-6 about-txt">
+                <h1>Quien Somos</h1>
+                <p>Nuestro equipo de expertos en petróleo y gas está listo para ofrecerle una consulta personalizada. Reserve su cita hoy mismo para discutir soluciones innovadoras que impulsen su negocio hacia el éxito.</p>
+                <div class="icones">
+                    <i class="bi bi-whatsapp" href=""></i>
+                    <i class="bi bi-telephone" href=""></i>
+                    <i class="bi bi-facebook" href=""></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- Contatos Section -->
+  <section id="contact" class="contact py-5 ">
+    <div class="container">
+      <h2 class="text-center mb-5">ponte en contacto con nosotros</h2>
+      <form class="contact-form">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Nombre" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" placeholder="Su Mensaje" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white text-center py-4">
+    <p>&copy; 2025 EgoPetroleum. Todos los direitos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS e dependências -->
+  <script src="lib/bootstrap/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <script src="lib/bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- GSAP -->
+  <script src="lib/gsap/node_modules/gsap/dist/gsap.min.js"></script>
+  
+  <!-- Swiper JS -->
+  <script src="lib/swiper/node_modules/swiper/swiper-bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

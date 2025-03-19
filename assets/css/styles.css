@@ -1,0 +1,159 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body, html {
+    overflow-x: hidden;
+    background-color: rgb(19, 18, 18);
+    color:white;
+}
+
+/* Garante que nada saia do layout */
+.container, .swiper-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* Remove margens laterais indesejadas */
+.services .swiper-container {
+    padding: 0 15px;
+}
+
+/* Oculta os elementos inicialmente para animar ao entrar na viewport */
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+  
+  /* Navbar */
+  .navbar {
+    transition: background-color 0.3s;
+  }
+  
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(../img/img1.png) no-repeat center;
+    background-size: cover;
+  }
+  
+  .hero-content {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+    color: white;
+  }
+  .hero p{
+    color: white;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  /* Serviços Section */
+  .services {
+    padding: 50px 0;
+
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: 300px;
+  }
+  .basico{
+    background-color: #333;
+  }
+  .Intermediario{
+    background-color: #333;
+    
+  }
+  .avanzado{
+    background-color: #333;
+  }
+  .avanzado_{
+    background-color: #333;
+    
+  }
+  .swiper-container h3{
+    text-decoration: solid underline white ;
+    
+  }
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  /*about*/
+
+  .about {
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+}
+
+.about-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.about-txt {
+    padding: 20px;
+}
+
+.about-txt h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+    .icones i{
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 8px;
+        font-size: 30px;
+    }
+
+  /* Contatos Section */
+  .contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
