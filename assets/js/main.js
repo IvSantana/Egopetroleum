@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const swiper = new Swiper('.swiper-container', {
         loop: true,
         autoplay: {
-            delay: 3000, // Tempo entre os slides (3 segundos)
+            delay: 5000, // Tempo entre os slides (3 segundos)
             disableOnInteraction: false // Continua rodando mesmo após interação do usuário
         },
         pagination: {
@@ -133,6 +133,18 @@ document.addEventListener("DOMContentLoaded", function () {
         ease: "power3.out",
         scrollTrigger: {
             trigger: ".about",
+            start: "top 80%",
+            toggleActions: "play none none none"
+        }
+    });
+      // Animação de entrada para Comercialização de Ouro
+      gsap.from(".gold-trading .row", {
+        opacity: 0,
+        y: 50,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".gold-trading",
             start: "top 80%",
             toggleActions: "play none none none"
         }

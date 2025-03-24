@@ -11,6 +11,12 @@
     background-color: rgb(19, 18, 18);
     color:white;
 }
+/*navbar*/
+
+nav img{
+  height: 50px;
+  padding: 0 15px;
+}
 
 /* Garante que nada saia do layout */
 .container, .swiper-container {
@@ -71,25 +77,35 @@
   /* Serviços Section */
   .services {
     padding: 50px 0;
+    background: linear-gradient(to right, rgb(5, 15, 45), rgb(0, 50, 100), rgb(0, 100, 180));
 
   }
   
   .swiper-container {
     width: 100%;
     height: 300px;
+    color: white;
+    font-size: 35px;
+  }
+  .swiper-container p{
+    background-color: #2222222c;
   }
   .basico{
-    background-color: #333;
+    background:url(../img/slide.jpg) no-repeat center;
+    background-size: cover;
   }
   .Intermediario{
-    background-color: #333;
+    background: url(../img/slide2.jpg) no-repeat center;
+    background-size: cover;
     
   }
   .avanzado{
-    background-color: #333;
+    background: url(../img/slide3jpg.webp) no-repeat center;
+    background-size: cover;
   }
   .avanzado_{
-    background-color: #333;
+    background: url(../img/slide4.jpg) no-repeat center;
+    background-size: cover;
     
   }
   .swiper-container h3{
@@ -138,6 +154,23 @@
         padding: 0 8px;
         font-size: 30px;
     }
+
+    .gold-trading {
+      background-color: #222;
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+  }
+  .gold-trading p{
+    margin-right: 30px;
+  }
+  
+  .gold-trading img {
+    height: 600px;
+      width: 560px;
+      border-radius: 10px;
+  }
+  
 
   /* Contatos Section */
   .contact {
